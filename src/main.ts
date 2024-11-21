@@ -1,4 +1,6 @@
 import express from 'express';
+import { db } from './database/db';
+import { db_users } from './database/schema/users';
 
 const app = express();
 
